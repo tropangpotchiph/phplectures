@@ -11,6 +11,9 @@ echo '<h1>Loops </h1>';
   }
 */
 
+// for ($x=0; $x <= 10; $x++) { 
+//   echo "Number: $x <br>";
+// }
 
 /* ------------ While Loop ------------ */
 
@@ -20,6 +23,13 @@ echo '<h1>Loops </h1>';
   // code to be executed
   }
 */
+
+// $x = 1;
+
+// while ($x <= 10) {
+//     echo "Number: $x <br>";
+//     $x++;
+// }
 
 
 /* ---------- Do While Loop --------- */
@@ -33,7 +43,12 @@ echo '<h1>Loops </h1>';
 do...while loop will always execute the block of code once, even if the condition is false.
 */
 
+// $x = 1;
 
+// do {
+//       echo "Number: $x <br>";
+//       $x++;
+// } while ($x <= 10);
 
 /* ---------- Foreach Loop ---------- */
 
@@ -43,3 +58,28 @@ do...while loop will always execute the block of code once, even if the conditio
   // code to be executed
   }
 */
+
+$numbers = [1,2,3,4,5];
+
+foreach ($numbers as $x) {
+  echo "Number: $x <br>";
+}
+
+//use the indexes with the loop
+
+$posts = ['Post one', 'Post two', 'Post three'];
+
+foreach ($posts as $index => $post) {
+  echo $index . " - " . $post . "<br>";
+}
+
+$person = [
+  'first_name' => 'Ryan',
+  'last_name' => 'Azur',
+  'email' => 'razur@gmail.com',
+];
+
+//Get Keys
+foreach ($person as $key => $val) {
+  echo $key . ' - ' . $val . "<br>";
+}
