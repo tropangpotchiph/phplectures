@@ -11,6 +11,14 @@ if (isset($_POST['submit'])) {
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
     $password = filter_input(INPUT_POST, 'password', FILTER_SANITIZE_FULL_SPECIAL_CHARS);  
    
+    if ($username == 'ryan' && $password == 'qwerty') {
+        //Set Session variable
+        $_SESSION['username'] = $username;
+        //Redirect it to another page
+        header('Location: /lectures/extras/dashboard.php');
+    } else {
+        echo 'Incorrect username or password';
+    }
   
  }  
 ?>
