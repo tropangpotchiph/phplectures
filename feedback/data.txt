@@ -1,0 +1,34 @@
+
+$feedback = [
+  [
+    'id' => '1',
+    'name' => 'Benjamin Cruz',
+    'email' => 'bcruz@gmail.com',
+    'body' => 'Kodego Bootcamp is great'
+  ],
+  [
+    'id' => '2',
+    'name' => 'Joanne Abala',
+    'email' => 'jabala@gmail.com',
+    'body' => 'I highly recommend Kodego Bootcamp'
+  ],
+  [
+    'id' => '3',
+    'name' => 'Jason Tolentino',
+    'email' => 'jtolentino@gmail.com',
+    'body' => 'Their learning materials and delivery are awesome!'
+  ]
+  ];
+
+
+Feedback for database:
+
+"The web development bootcamp exceeded my expectations in every way. The instructors were knowledgeable, patient, and always available to help. The curriculum was comprehensive, covering both front-end and back-end development, and the hands-on projects allowed me to apply what I learned in real-world scenarios."
+
+"I highly recommend this web development bootcamp to anyone looking to jumpstart their career in the field. The curriculum was up-to-date with the latest industry trends, and the emphasis on practical skills gave me the confidence to tackle real-world web development challenges. The supportive and collaborative learning environment made the experience even more enjoyable."
+
+"Attending this web development bootcamp was one of the best decisions I've made. The bootcamp provided a solid foundation in web development concepts and technologies, and the dedicated career support team helped me polish my portfolio and prepare for job interviews. I feel well-prepared and ready to embark on a successful career in web development."
+
+"I can't say enough good things about this web development bootcamp. The instructors were passionate about teaching and made complex concepts easy to understand. The hands-on projects and coding exercises allowed me to practice and reinforce my skills, and the strong community of fellow learners provided a supportive network for collaboration and learning."
+
+"The web development bootcamp offered a well-structured and comprehensive learning experience. From HTML and CSS to JavaScript and server-side frameworks, I gained a solid understanding of the full web development stack. The practical focus and real-world projects helped me build a strong portfolio, setting me up for success in the industry."
